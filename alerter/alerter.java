@@ -23,5 +23,6 @@ public class Alerter {
         alertInCelcius(303.6f);
         System.out.printf("%d alerts failed.\n", alertFailureCount);
         System.out.println("All is well (maybe!)\n");
+        assert(alertFailureCount == 2);
     }
 }
