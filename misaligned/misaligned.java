@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 public class misaligned {
-    static int printColorMap() {
+    static Map<Integer, String> printColorMap() {
         String majorColors[] = {"White", "Red", "Black", "Yellow", "Violet"};
         String minorColors[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
         Map<Integer, String> colorPairWithIndex = new HashMap<Integer, String>();
