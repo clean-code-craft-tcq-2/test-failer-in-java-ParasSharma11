@@ -13,7 +13,7 @@ public class misaligned {
         return colorPairWithIndex;
     }
     public static void main(String[] args) { 
-        Map<int, String result = printColorMap();
+        Map<int, String> result = printColorMap();
 	    assert(result.get(1).equals("White Blue"));
         System.out.println("All is well (maybe!)");
     }
