@@ -1,4 +1,3 @@
-package alerter;
 public class alerter {
     static int alertFailureCount = 0;
     static int networkAlertStub(float celcius) {
@@ -13,13 +12,13 @@ public class alerter {
          {
         return 500;
          }
-       
+
     }
     static float convertFarenheitToCelcius(float farenheit) {
     float celcius = (farenheit - 32) * 5 / 9;
     return celcius;
     }
-    
+
     static void alertInCelcius(float farenheit) {
         float celcius = convertFarenheitToCelcius(farenheit);
         int returnCode = networkAlertStub(celcius);
@@ -31,8 +30,11 @@ public class alerter {
             alertFailureCount += 1;
         }
     }
-    
     public static void main(String[] args) {
-        testAlerter.testAlertInCelcius();
+        alertInCelcius(400.5f);
+        alertInCelcius(301.6f);
+        System.out.printf("%d alerts failed.\n", alertFailureCount);
+        System.out.println("All is well (maybe!)\n");
+        assert(alertFailureCount == 1);
     }
 }
