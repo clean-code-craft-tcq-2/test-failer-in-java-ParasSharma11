@@ -1,3 +1,4 @@
+package alerter;
 public class alerter {
     static int alertFailureCount = 0;
     static int networkAlertStub(float celcius) {
