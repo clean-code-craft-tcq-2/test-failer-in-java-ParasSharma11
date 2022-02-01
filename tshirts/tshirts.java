@@ -3,11 +3,11 @@ public class tshirts {
         if(cms < 36){
         return "Not a valid size";  
         }else if((cms >= 36) && (cms <= 38)){
-        return = "S";
+        return "S";
         }else if((cms >= 39) && (cms <= 41)){
-        return = "M";
+        return "M";
         }else if((cms >= 42) && (cms <= 44)){
-        return = "L";
+        return "L";
         }else{
             return "Not a valid size";
         }
