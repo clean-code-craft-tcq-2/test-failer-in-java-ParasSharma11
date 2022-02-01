@@ -34,6 +34,5 @@ public class alerter {
     
     public static void main(String[] args) {
         testAlerter.testAlertInCelcius();
-        return 0;
     }
 }
