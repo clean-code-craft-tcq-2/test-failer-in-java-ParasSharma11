@@ -30,11 +30,4 @@ public class alerter {
             alertFailureCount += 1;
         }
     }
-    public static void main(String[] args) {
-        alertInCelcius(400.5f);
-        alertInCelcius(301.6f);
-        System.out.printf("%d alerts failed.\n", alertFailureCount);
-        System.out.println("All is well (maybe!)\n");
-        assert(alertFailureCount == 1);
-    }
 }
