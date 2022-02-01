@@ -32,7 +32,7 @@ public class alerter {
         }
     }
     
-    int main() {
+    public static void main(String[] args) {
         testAlerter.testAlertInCelcius();
         return 0;
     }
