@@ -30,4 +30,9 @@ public class alerter {
             alertFailureCount += 1;
         }
     }
+    
+    int main() {
+        testAlerter.testAlertInCelcius();
+        return 0;
+    }
 }
